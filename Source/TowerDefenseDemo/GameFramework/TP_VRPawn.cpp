@@ -1,9 +1,3 @@
-/*
-* Author: Skyler Clark (@sclark39)
-* Website: http://skylerclark.com
-* License: MIT License
-*/
-
 #include "VRCode.h"
 #include "VRPawn.h"
 #include "VRHand.h"
@@ -12,7 +6,7 @@
 // Sets default values
 AVRPawn::AVRPawn()
 {
- 	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+ 	// Set this pawn to call Tick() every frame.
 	PrimaryActorTick.bCanEverTick = true;
 
 	VROrigin = CreateDefaultSubobject<USceneComponent>(TEXT("VROrigin"));
